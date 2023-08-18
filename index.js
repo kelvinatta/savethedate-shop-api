@@ -2,6 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get('/api/hello', (req,res)=>{
+    res.setHeader('Content-Type', 'application/json');
     res.send('Hello, Express API');
 
 });
