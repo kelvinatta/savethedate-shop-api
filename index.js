@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 
 app.get('/', (req,res)=>{
@@ -11,4 +11,4 @@ app.listen(port,() => {
     console.log('Server is running on port ${port}')
 })
 
-module.exports = app;
+export default app;
