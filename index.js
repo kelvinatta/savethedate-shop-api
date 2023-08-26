@@ -81,7 +81,7 @@ const payUsualBills = async ClientReference => {
 // may throw, wrap in try catch block to handle errors
 //console.log(payUsualBills("UniqueXXXXX21XX"));
 
-app.get('/api/hello', (req,res)=>{
+app.post('/api/hello', (req,res)=>{
     try{
    payUsualBills("65737a40-2aca-4c21-b6da-cd5a51973dcd")
     }
