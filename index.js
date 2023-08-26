@@ -1,9 +1,10 @@
 import express from 'express';
+
 const {
     MobileMoney,
     Config,
     getErrorMessageFromResponseCode
-} = require("@aberba/hubtel");
+} = require("aberba/hubtel");
 const app = express();
 
 
