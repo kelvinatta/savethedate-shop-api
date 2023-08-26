@@ -93,7 +93,7 @@ app.post('/api/hello', (req,res)=>{
 
 app.get('/api/callback', (req,res)=>{
    
-    res.send("Payment Successfull");
+    res.json("Payment Successfull");
 
 });
 
