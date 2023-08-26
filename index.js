@@ -48,7 +48,7 @@ mobileMoney
     .send({
         RecipientName: "Adongo Samuel",
         RecipientMsisdn: "0503826189",
-        CustomerEmail: "user@example.com",
+        CustomerEmail: "300ices@gmail.com.com",
         Channel: "vodafone-gh",
         Amount: 60.05,
         PrimaryCallbackUrl: "https://vercel.com/kelvinatta/savethedate-shop-api/api/callback",

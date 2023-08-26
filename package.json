@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@aberba/hubtel": "^0.2.2",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "hubtel-mx": "^0.2.1"
   }
 }
