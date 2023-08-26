@@ -67,7 +67,7 @@ const payUsualBills = async ClientReference => {
     const paymentData = {
         RecipientName: "Tax tax tax!!",
         RecipientMsisdn: "0503826189",
-        CustomerEmail: "user@example.com",
+        CustomerEmail: "300ices@gmail.com",
         Channel: "vodafone-gh",
         Amount: 100000.01,
         PrimaryCallbackUrl: "https://vercel.com/kelvinatta/savethedate-shop-api/api/callback",
